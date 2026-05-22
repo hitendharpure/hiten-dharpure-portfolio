@@ -9,7 +9,7 @@ const XIcon = ({ className = 'w-5 h-5' }: { className?: string }) => (
 );
 
 export default function MakerPage() {
-  const [imgSrc, setImgSrc] = useState('/image.png');
+  const [imgSrc, setImgSrc] = useState('./image.png');
 
   const socialLinks = [
     {
