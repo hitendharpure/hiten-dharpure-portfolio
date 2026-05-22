@@ -79,25 +79,25 @@ export default function BentoGrid() {
             {/* Column 1: Prototype & Demo */}
             <div className="flex flex-col gap-4 w-full sm:w-1/2">
               <div className="aspect-[4/5] w-full rounded-xl overflow-hidden">
-                <MediaPlaceholder type="photo" src="/weather-1.jpg" label="Hiten holding his certificate and Weather Station" className="w-full h-full" />
+                <MediaPlaceholder type="photo" src="./weather-1.jpg" label="Hiten holding his certificate and Weather Station" className="w-full h-full" />
               </div>
               <div className="aspect-video w-full rounded-xl overflow-hidden">
-                <MediaPlaceholder type="video" src="/weather-3.mp4" label="Hiten's Felicitation" className="bg-slate-800/50 border-wonder-green/20 w-full h-full" />
+                <MediaPlaceholder type="video" src="./weather-3.mp4" label="Hiten's Felicitation" className="bg-slate-800/50 border-wonder-green/20 w-full h-full" />
               </div>
               <div className="aspect-[4/3] w-full rounded-xl overflow-hidden">
-                <MediaPlaceholder type="photo" src="/weather-4.JPG" label="Close Up View" className="w-full h-full" />
+                <MediaPlaceholder type="photo" src="./weather-4.JPG" label="Close Up View" className="w-full h-full" />
               </div>
             </div>
 
             {/* Column 2: Closeup & Copyright */}
             <div className="flex flex-col gap-4 w-full sm:w-1/2">
               <div className="aspect-[5/4] w-full rounded-xl overflow-hidden">
-                <MediaPlaceholder type="photo" src="/weather-2.jpg" label="Weather Station Closeup" className="w-full h-full" />
+                <MediaPlaceholder type="photo" src="./weather-2.jpg" label="Weather Station Closeup" className="w-full h-full" />
               </div>
               <div className="flex flex-col gap-2 w-full">
                 <p className="text-xs text-gray-400 font-medium leading-relaxed">Copyright of Code: Firmware of AI-powered Weather Station</p>
                 <div className="aspect-[9/16] w-full rounded-xl overflow-hidden">
-                  <MediaPlaceholder type="photo" src="/copyright.png" label="Copyright Certificate" className="w-full h-full" />
+                  <MediaPlaceholder type="photo" src="./copyright.png" label="Copyright Certificate" className="w-full h-full" />
                 </div>
               </div>
             </div>
