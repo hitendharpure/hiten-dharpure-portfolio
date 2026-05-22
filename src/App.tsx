@@ -22,7 +22,7 @@ export default function App() {
         <div className="absolute inset-0 bg-slate-950/50 bg-gradient-to-b from-transparent via-slate-950/30 to-slate-950"></div>
         
         <video 
-          src="/background-video.mp4" 
+          src="./background-video.mp4" 
           autoPlay 
           muted 
           loop 
