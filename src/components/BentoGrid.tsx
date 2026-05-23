@@ -282,65 +282,6 @@ export default function BentoGrid({ onViewChange }: BentoGridProps) {
             </div>
           </div>
         </motion.div>
-
-        {/* Other Achievements Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: "easeOut", delay: 0.55 }}
-          className="flex items-center gap-4 py-4 mt-2"
-        >
-          <div className="flex-1 h-[1px] bg-gradient-to-r from-transparent via-slate-800 to-slate-800"></div>
-          <div className="flex items-center gap-2 px-4 py-1.5 bg-slate-900/40 backdrop-blur-md rounded-full border border-slate-800/60">
-            <div className="w-1.5 h-1.5 rounded-full bg-wonder-green animate-pulse"></div>
-            <span className="text-[10px] md:text-xs font-black uppercase tracking-[0.2em] text-gray-200">
-              Other Achievements
-            </span>
-          </div>
-          <div className="flex-1 h-[1px] bg-gradient-to-r from-slate-800 via-slate-800 to-transparent"></div>
-        </motion.div>
-
-        {/* Jigyasa Science Quiz Card */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, ease: "easeOut", delay: 0.6 }}
-          className="w-full bg-slate-900/40 backdrop-blur-md border border-slate-800/65 rounded-2xl p-5 flex flex-col hover:scale-[1.02] hover:shadow-2xl transition-all"
-        >
-          <div className="flex justify-between items-start w-full gap-2 mb-2 flex-col sm:flex-row sm:items-center">
-            <h3 className="text-base font-bold text-wonder-green uppercase tracking-wide">Jigyasa Science Quiz</h3>
-            <span className="text-xs bg-wonder-green/10 text-wonder-green px-2 py-1 rounded border border-wonder-green/30 font-bold shrink-0">2024</span>
-          </div>
-
-          <p className="text-sm text-gray-300 leading-relaxed mb-5 text-left">
-            Secured 1st Rank in Quiz organized by CSIR-NEERI on the occasion of 10th India International Science Festival (IISF-2024)
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 w-full h-auto sm:h-[240px] justify-center items-center">
-            <div className="aspect-video w-full max-w-[320px] sm:max-w-none sm:w-auto sm:h-full rounded-xl overflow-hidden border border-slate-800/80 bg-slate-950/20 group relative shrink-0">
-              <img
-                src="./jig2024-1.jpg"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                alt="Jigyasa Science Quiz Award Presentation"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-slate-950/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2 pointer-events-none">
-                <span className="text-white text-[9px] font-semibold tracking-wider uppercase bg-slate-950/80 px-1.5 py-0.5 rounded border border-slate-800">Stage Award Function</span>
-              </div>
-            </div>
-            <div className="aspect-[3/4] w-[210px] sm:w-auto sm:h-full rounded-xl overflow-hidden border border-slate-800/80 bg-slate-950/20 group relative shrink-0">
-              <img
-                src="./jig2024-2.jpg"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                alt="Jigyasa Science Quiz Hiten holding certificate"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-slate-950/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2 pointer-events-none">
-                <span className="text-white text-[9px] font-semibold tracking-wider uppercase bg-slate-950/80 px-1.5 py-0.5 rounded border border-slate-800">Certificate</span>
-              </div>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </div>
   );

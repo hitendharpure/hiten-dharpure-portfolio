@@ -68,9 +68,9 @@ export default function App() {
 
       {/* Actual content above canvas */}
       <div className="relative z-0 flex flex-col w-full min-h-screen overflow-x-hidden">
-        <Navigation 
-          currentView={(currentView === 'weather-journey' || currentView === 'robot-journey') ? 'home' : currentView} 
-          onViewChange={navigateTo} 
+        <Navigation
+          currentView={(currentView === 'weather-journey' || currentView === 'robot-journey') ? 'home' : currentView}
+          onViewChange={navigateTo}
         />
         <main className="flex-1 flex flex-col px-4 md:px-8 pb-16 lg:pb-24 gap-6 max-w-[1280px] w-full mx-auto justify-center">
           {currentView === 'home' ? (
