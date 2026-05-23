@@ -35,6 +35,10 @@ export default function App() {
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentView]);
+
   const navigateTo = (view: 'home' | 'maker' | 'weather-journey' | 'robot-journey') => {
     if (view === 'maker') {
       window.location.hash = '#/maker';
