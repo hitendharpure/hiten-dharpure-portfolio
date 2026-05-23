@@ -82,10 +82,10 @@ export default function BentoGrid() {
                 <MediaPlaceholder type="photo" src="./weather-1.jpg" label="Hiten holding his certificate and Weather Station" className="w-full h-full" />
               </div>
               <div className="aspect-video w-full rounded-xl overflow-hidden">
-                <MediaPlaceholder type="video" src="./weather-3.mp4" label="Hiten's Felicitation" className="bg-slate-800/50 border-wonder-green/20 w-full h-full" />
+                <MediaPlaceholder type="video" src="./weather-3.mp4" label="Close Up View" className="bg-slate-800/50 border-wonder-green/20 w-full h-full" />
               </div>
               <div className="aspect-[4/3] w-full rounded-xl overflow-hidden">
-                <MediaPlaceholder type="photo" src="./weather-4.JPG" label="Close Up View" className="w-full h-full" />
+                <MediaPlaceholder type="photo" src="./weather-4.JPG" label="Hiten's Felicitation" className="w-full h-full" />
               </div>
             </div>
 
